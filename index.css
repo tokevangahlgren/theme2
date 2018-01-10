@@ -1,0 +1,184 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.grass {
+  max-width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin: auto;
+}
+
+/*motto*/
+h1 {
+  font-size: 16px;
+  color: #1b6000;
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.grass {
+  padding-top: 7%;
+  padding-bottom: 16%;
+}
+
+h2 {
+  font-size: 20px;
+  text-align:center;
+  color: #1b6000;
+  padding-bottom: 4%;
+}
+
+.om {
+  padding-top: 8%;
+}
+
+.cirkel {
+  width: 45%;
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  padding-bottom: 10%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 2%;
+  line-height: 20px;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 45px;
+  color: #ffa56e;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 16%;
+  padding-bottom: 16%;
+  line-height: 70px;
+}
+
+
+/*Navigationsbar*/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100%;
+  width: 25%;
+  line-height: 50px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #820333;
+    color: white;
+}
+
+.page-footer {
+  background-color: #9ecb45;
+  /*padding: 1em;*/
+  text-decoration: none;
+  margin: auto;
+}
+
+.knap {
+  width: 15%;
+  display: inline;
+  max-width: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-decoration: none;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.smoot {
+  background-image: url(img/gradient.jpg);
+  background-size: contain;
+}
+
+@media only screen and (min-width: 700px) {
+
+.cirkel {
+  display: inline;
+  max-width: 70%;
+  margin: auto;
+  width: 25%;
+  padding-left: 3%;
+  padding-top: 4%;
+}
+
+/*motto*/
+h1 {
+  font-size: 16px;
+  color: #1b6000;
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.topnav a {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  font-size: 24px;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 2%;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 300;

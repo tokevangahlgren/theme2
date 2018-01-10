@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.logo{
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin: 5%;
+}
+
+.box{
+  width: 100%;
+  margin: 0%;
+}
+
+  h1 {
+    font-size: 16px;
+    color: #1b6000;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  /*Navigationsbar*/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100%;
+  width: 25%;
+  line-height: 50px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #820333;
+    color: white;
+}
+
+p {
+  font-size: 14px;
+  width: 70%;
+  margin-left: 15%;
+  margin-left: 15%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+}
+
+h3{
+  width: 100%;
+  padding: 10%;
+  display: block;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #Ffa56e;
+  font-size: 45px;
+}
+
+
+.pagefooter {
+  background-color: #9ecb45;
+  text-decoration: none;
+  clear: both;
+}
+
+.knap {
+  width: 15%;
+  display: inline;
+  max-width: 200px;
+  margin-left: 11%;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 700px){
+
+  .box {
+      float: left;
+      height: auto;
+      width: 90%;
+      margin: 2%;
+      margin-right: 5%;
+      margin-top: 1%;
+  }
+
+  p {
+    font-size: 18px;
+    width: 60%;
+    float: left;
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+    line-height: 30px;
+  }
+
+  img {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0%;
+  }
+
+h3{
+width: 60%;
+  font-size: 60px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin: 0%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+}
+}

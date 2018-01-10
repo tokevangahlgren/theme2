@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+figure {
+  /*background-color: red;*/
+}
+
+/*logo*/
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin: auto;
+}
+/*logo slut*/
+
+/*motto*/
+h1 {
+  font-size: 16px;
+  text-align: center;
+  color: #1b6000;
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 4%;
+}
+/*motto slut*/
+
+/*Navigationsbar*/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100%;
+  width: 25%;
+  line-height: 50px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #820333;
+    color: white;
+}
+/*navigationsbar slut*/
+
+img {
+  max-width: 70%;
+  margin: auto;
+  height: auto;
+  display: block;
+  /*padding: 5%;*/
+}
+
+/*overskrift*/
+h2 {
+  /*background-color: orange;*/
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5%;
+  text-align: center;
+  display: block;
+}
+
+p {
+  /*background-color: green;*/
+  text-align: center;
+  display: block;
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 5%;
+  /*overflow: auto;*/
+  margin-right: 0;/*margin 0 måske */
+}
+
+/*quote*/
+h3 {
+  color: #ffa56e;
+  text-align: center;
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 45px;
+  padding: 5%
+
+}
+/*footer*/
+ul {
+  margin-bottom: 0;
+}
+
+.page-footer {
+ background-color: #9ecb45;
+ text-decoration: none;
+}
+
+.knap {
+ width: 15%;
+ display: inline;
+ max-width: 200px;
+ margin-left: 11%;
+ text-decoration: none;
+}
+
+/*fjerner - - på footer*/
+a {
+  text-decoration: none;
+}
+
+/*sreen must be min 700 px*/
+@media screen and (min-width: 700px){
+  body{
+    /*background-color: blue;
+    color: #FFF;*/
+  }
+
+  /*motto*/
+  /*HJÆLP
+  h1 {
+    font-size:
+  }
+*/
+  /*overskrift*/
+  h2 {
+    font-size: 36px;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 50%;
+    display: block;
+    margin: 0;
+  }
+
+  /*quote*/
+  h3 {
+    font-size: 60px;
+    font-weight: 400;
+    display: block;
+    padding: 0%;
+  }
+
+  p {
+    /*background-color: green;*/
+    font-size: 18px;
+    line-height: 30px;
+    width: 50%;
+    text-align: left;
+    display: block;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+    /*display: block;*/
+    /*float: left;*/
+    /*vertical-align: bottom;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+  }
+
+  figure {
+    max-width: 40%;
+    float: right;
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    clear: both;
+  }
+}

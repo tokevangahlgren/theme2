@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+font-family:"Josefin Sans", sans-serif;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin: auto;
+}
+
+/*motto*/
+h1 {
+  font-size: 16px;
+  color: #1b6000;
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+
+/*Navigationsbar*/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  height: 100%;
+  width: 25%;
+  line-height: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #820333;
+    color: white;
+}
+ /* Navigation slut*/
+
+/*Overskrift*/
+h2 {
+  margin-top: 30px;
+  color: #1b6000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/*Store Billede*/
+img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/*Brødtekst*/
+.tekst{
+  color: black;
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+
+/*Billeder med tekst*/
+figure {
+  max-width: 55%;
+  margin: auto;
+  text-align: center;
+  color: #055B02;
+  /*margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;*/
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.eco {
+  border-top: 3px solid #ffa56e;
+}
+
+.hand {
+  border-bottom:3px solid #ffa56e;
+  padding-bottom: 7%;
+  margin-bottom: 10%;
+}
+
+/*Footer style*/
+.page-footer {
+  background-color: #9ecb45;
+  /*padding: 1em;*/
+  text-decoration: none;
+}
+
+.knap {
+  width: 15%;
+  display: inline;
+  max-width: 200px;
+  margin-left: 11%;
+  text-decoration: none;
+}
+/*Footer style slut*/
+
+
+/*Kode til skærm over 700px*/
+@media screen and (min-width: 700px){
+/*Overskrift*/
+  h2{
+    font-size: 36px;
+  }
+
+/*Brødtekst*/
+  .tekst{
+    font-size: 18px;
+    max-width: 70%;
+    line-height: 30px;
+    }
+
+/*Billeder med tekst*/
+  .billeder{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    border-top: 3px solid #ffa56e;
+    border-bottom: 3px solid #ffa56e;
+}
+
+  figure{
+  display: inline-block;
+}
+
+  .eco {
+    float: left;
+    width: 33.33%;
+    border-top: none;
+  }
+
+  .dygtig {
+    float: none;
+    width: 33.33%;
+  }
+
+  .hand {
+    float: right;
+    width: 33.33%;
+    border-bottom: none;
+  }
+
+  figcaption{
+    font-size: 18px;
+  }
+  /*Billeder m tekst slut*/
+}
